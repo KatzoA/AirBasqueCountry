@@ -1,0 +1,30 @@
+*{
+    font-family: 'Acme', sans-serif;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    background-color: #DBDBD9;
+    color:#DBDBD9;
+    line-height: 2px;
+}
+
+header{
+    background: url('../images/header-section.jpg') 100% fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.titre{
+font-size: 100px;
+text-transform: uppercase;
+}
+
+h3.slogan{
+font-size: 25px;
+font-style: italic;
+}
