@@ -68,7 +68,29 @@ div.toutes_destinations{
 }
 
 .overlay{
-    background-color: #373737;
     position: absolute;
+    color: #373737;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+span.nom{
+    position: relative;
+    top: 20px;
+    color: #373737;
+    background-color: #fff;
+    float: right;
+    padding: 12px;
+    font-size: 22px;
+}
+
+span.prix{
+    position: relative;
     color: #fff;
+    background-color: #EF8F1D;
+    padding: 12px;
+    font-size: 25px;
+    top: 220px;
 }
