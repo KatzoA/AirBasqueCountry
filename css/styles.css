@@ -29,18 +29,46 @@ font-size: 25px;
 font-style: i;
 }
 
-ul.destinations{
-    display: inline-block;
-}
-
-ul.destinations li{
+div.destination_item{
     color: #373737;
-    display: inline-block;
-    background-color: #fff;
-    margin: 12px;
-    padding: 12px;
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    position: relative;
 }
 
-section#section_destinations{
-    width: 100%;
+div.toutes_destinations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barcelone{
+    background: url('../images/barcelone.jpg');
+}
+
+.dubai{
+    background: url('../images/dubai.jpg');
+}
+
+.philippines{
+    background: url('../images/philippines.jpg');
+}
+
+.paris{
+    background: url('../images/paris.jpg');
+}
+
+.londres{
+    background: url('../images/londres.jpg');
+}
+
+.tunis{
+    background: url('../images/tunis.jpg');
+}
+
+.overlay{
+    background-color: #373737;
+    position: absolute;
+    color: #fff;
 }
