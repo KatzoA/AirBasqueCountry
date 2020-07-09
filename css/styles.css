@@ -7,7 +7,6 @@ body{
     padding: 0;
     background-color: #DBDBD9;
     color:#DBDBD9;
-    line-height: 2px;
 }
 
 header{
@@ -17,6 +16,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    line-height: 2px;
 }
 
 h1.titre{
@@ -26,5 +26,21 @@ text-transform: uppercase;
 
 h3.slogan{
 font-size: 25px;
-font-style: italic;
+font-style: i;
+}
+
+ul.destinations{
+    display: inline-block;
+}
+
+ul.destinations li{
+    color: #373737;
+    display: inline-block;
+    background-color: #fff;
+    margin: 12px;
+    padding: 12px;
+}
+
+section#section_destinations{
+    width: 100%;
 }
