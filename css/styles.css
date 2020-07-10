@@ -45,7 +45,6 @@ div.toutes_destinations{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 0px 20% 0px 20%;;
 }
 
 div.destination_item:hover{
@@ -125,7 +124,6 @@ span.prix:hover{
 header form{
     background-color: #EF8F1D;
     padding: 20px;
-    opacity: 0.90;
 }
 
 header form:hover{
@@ -150,4 +148,19 @@ opacity: 1;
     color: #fff;
     font-size: 25px;
     margin: 15px;
+}
+
+section#destinations{
+    margin: 0px 20% 0px 20%;
+}
+
+section#destinations h3{
+    padding-top: 30px;
+    color: #373737;
+    opacity: 0.5;
+    
+}
+
+.rechercheForm{
+transform: translateY(15px);
 }

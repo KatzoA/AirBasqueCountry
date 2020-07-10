@@ -17,92 +17,98 @@
         <h1 class="titre">Air Basque 🛫</h1>
         <h3 class="slogan">La tete dans les nuages</h3>
 
-        <form action="post">
-            <div class="form-group">
-                <label for="provenance">Ville de départ: </label>
-                <input type="text" name="provenance" id="provenance" placeholder="Paris, Milan...">
-                <label for="ville_arrivee">Ville de d'arrivée: </label>
-                <input type="text" name="ville_arrivee" id="ville_arrivee" placeholder="Paris, Milan...">
-            </div>
+        <div class="rechercheForm">
 
-            <div class="form-group">
-                <label for="dateDepart">Date de départ: </label>
-                <input type="date" name="dateDepart" id="dateDepart" value="13/02/2020">
-                <label for="dateRetour">Date de retour: </label>
-                <input type="date" name="dateRetour" id="dateRetour" value="16/02/2020">
-            </div>
-
-            <div class="form-group">
-                <label for="nbAdulte">Nombre d'adultes: </label>
-                <select name="nbAdulte" id="nbAdulte">
-                    <option selected="selected">0 adulte</option>
-                    <option>1 adulte</option>
-                    <option>2 adultes</option>
-                    <option>3 adultes</option>
-                    <option>4 adultes</option>
-                    <option>5 adultes</option>
-                </select>
+            <form action="post">
+                <div class="form-group">
+                    <label for="provenance">Ville de départ: </label>
+                    <input type="text" name="provenance" id="provenance" placeholder="Paris, Milan...">
+                    <label for="ville_arrivee">Ville de d'arrivée: </label>
+                    <input type="text" name="ville_arrivee" id="ville_arrivee" placeholder="Paris, Milan...">
+                </div>
     
-                <label for="nbEnfant">Nombre d'enfants: </label>
-                <select name="nbEnfant" id="nbEnfant">
-                    <option selected="selected">0 enfant</option>
-                    <option>1 enfant</option>
-                    <option>2 enfants</option>
-                    <option>3 enfants</option>
-                    <option>4 enfants</option>
-                    <option>5 enfants</option>
-                </select>
+                <div class="form-group">
+                    <label for="dateDepart">Date de départ: </label>
+                    <input type="date" name="dateDepart" id="dateDepart" value="13/02/2020">
+                    <label for="dateRetour">Date de retour: </label>
+                    <input type="date" name="dateRetour" id="dateRetour" value="16/02/2020">
+                </div>
     
-                <label for="categorie_classe">Catégorie: </label>
-                <select name="categorie_classe" id="categorie_classe">
-                    <option selected="selected">Classe eco</option>
-                    <option>1er classe</option>
-                </select>
-
-            </div>
-            <div class="btn-submit">
-                <input type="submit" value="Lancer la recherche" name="recherche" id="form-submit">
-            </div>
-        </form>
+                <div class="form-group">
+                    <label for="nbAdulte">Nombre d'adultes: </label>
+                    <select name="nbAdulte" id="nbAdulte">
+                        <option selected="selected">0 adulte</option>
+                        <option>1 adulte</option>
+                        <option>2 adultes</option>
+                        <option>3 adultes</option>
+                        <option>4 adultes</option>
+                        <option>5 adultes</option>
+                    </select>
+        
+                    <label for="nbEnfant">Nombre d'enfants: </label>
+                    <select name="nbEnfant" id="nbEnfant">
+                        <option selected="selected">0 enfant</option>
+                        <option>1 enfant</option>
+                        <option>2 enfants</option>
+                        <option>3 enfants</option>
+                        <option>4 enfants</option>
+                        <option>5 enfants</option>
+                    </select>
+        
+                    <label for="categorie_classe">Catégorie: </label>
+                    <select name="categorie_classe" id="categorie_classe">
+                        <option selected="selected">Classe eco</option>
+                        <option>1er classe</option>
+                    </select>
+    
+                </div>
+                <div class="btn-submit">
+                    <input type="submit" value="Lancer la recherche" name="recherche" id="form-submit">
+                </div>
+            </form>
+        </div>
 
     </header>
-    <div class="toutes_destinations">
-        <div class="destination_item barcelone">
-            <div class="overlay">
-                <span class="prix">Dès 80 euros</span>
-                <span class="nom">Barcelone</span>
+    <section id="destinations">
+        <h3>Nous proposons différentes destination pour découvrir le monde!</h3>
+        <div class="toutes_destinations">
+            <div class="destination_item barcelone">
+                <div class="overlay">
+                    <span class="prix">Dès 80 euros</span>
+                    <span class="nom">Barcelone</span>
+                </div>
+            </div>
+            <div class="destination_item dubai">
+                <div class="overlay">
+                    <span class="prix">Dès 300 euros</span>
+                    <span class="nom">Dubai</span>
+                </div>
+            </div>
+            <div class="destination_item philippines">
+                <div class="overlay">
+                    <span class="prix">Dès 1200 euros</span>
+                    <span class="nom">Manille</span>
+                </div>
+            </div>
+            <div class="destination_item paris">
+                <div class="overlay">
+                    <span class="prix">Dès 55 euros</span>
+                    <span class="nom">Paris</span>
+                </div>
+            </div>
+            <div class="destination_item tunis">
+                <div class="overlay">
+                    <span class="prix">Dès 90 euros</span>
+                    <span class="nom">Tunis</span>
+                </div>
+            </div>
+            <div class="destination_item londres">
+                <div class="overlay">
+                    <span class="prix">Dès 65 euros</span>
+                    <span class="nom">Londres</span>
+                </div>
             </div>
         </div>
-        <div class="destination_item dubai">
-            <div class="overlay">
-                <span class="prix">Dès 300 euros</span>
-                <span class="nom">Dubai</span>
-            </div>
-        </div>
-        <div class="destination_item philippines">
-            <div class="overlay">
-                <span class="prix">Dès 1200 euros</span>
-                <span class="nom">Manille</span>
-            </div>
-        </div>
-        <div class="destination_item paris">
-            <div class="overlay">
-                <span class="prix">Dès 55 euros</span>
-                <span class="nom">Paris</span>
-            </div>
-        </div>
-        <div class="destination_item tunis">
-            <div class="overlay">
-                <span class="prix">Dès 90 euros</span>
-                <span class="nom">Tunis</span>
-            </div>
-        </div>
-        <div class="destination_item londres">
-            <div class="overlay">
-                <span class="prix">Dès 65 euros</span>
-                <span class="nom">Londres</span>
-            </div>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
