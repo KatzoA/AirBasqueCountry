@@ -35,12 +35,22 @@ div.destination_item{
     height: 300px;
     margin: 10px;
     position: relative;
+    flex: 1 0 29%;
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 div.toutes_destinations{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin: 0px 20% 0px 20%;;
+}
+
+div.destination_item:hover{
+transform: scale(0.98);
+    transition: 0.2s all;
 }
 
 .barcelone{
@@ -90,6 +100,7 @@ span.prix{
     position: relative;
     color: #fff;
     background-color: #EF8F1D;
+    opacity: 0.85;
     padding: 12px;
     font-size: 25px;
     top: 220px;
