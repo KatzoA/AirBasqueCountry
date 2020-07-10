@@ -106,3 +106,32 @@ span.prix{
     font-size: 25px;
     top: 220px;
 }
+
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.btn-submit{
+    text-align: center;
+}
+
+header form{
+    background-color: #EF8F1D;
+    padding: 20px;
+    opacity: 0.90;
+}
+
+.form-group label{
+    color: #fff;
+    margin:5px;
+    padding: 10px;
+}
+
+.form-group input, select, option{
+    border: none;
+    padding: 5px;
+    background-color: bisque;
+}
