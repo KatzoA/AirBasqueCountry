@@ -51,6 +51,7 @@ div.toutes_destinations{
 div.destination_item:hover{
 transform: scale(0.98);
     transition: 0.2s all;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .barcelone{
