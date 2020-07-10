@@ -107,6 +107,10 @@ span.prix{
     top: 220px;
 }
 
+span.prix:hover{
+    opacity: 1;
+}
+
 .form-group{
     display: flex;
     justify-content: center;
@@ -124,6 +128,10 @@ header form{
     opacity: 0.90;
 }
 
+header form:hover{
+opacity: 1;
+}
+
 .form-group label{
     color: #fff;
     margin:5px;
@@ -134,4 +142,12 @@ header form{
     border: none;
     padding: 5px;
     background-color: bisque;
+}
+
+.btn-submit input{
+    background-color: #373737;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+    margin: 15px;
 }
